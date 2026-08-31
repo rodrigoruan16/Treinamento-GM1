@@ -65,6 +65,9 @@ TagManager:
   - name: Ducky
     uniqueID: 2957139295
     locked: 0
+  - name: Scoreboard
+    uniqueID: 2362309255
+    locked: 0
   m_RenderingLayers:
   - Default
   m_MigratedRenderPipelines: []

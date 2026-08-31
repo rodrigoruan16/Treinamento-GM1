@@ -7,7 +7,25 @@ public class DuckyScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D _collision)
     {
+        PlayerPrefs.Save();
         Destroy(transform.gameObject);
+        EndApplication();
+    }
+
+    void OnQuit()
+    {
+        PlayerPrefs.Save();
+        EndApplication();
+    }
+
+    void EndApplication()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+                Application.Quit();
+
+#endif
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
