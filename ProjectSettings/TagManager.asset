@@ -2,8 +2,14 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Sky
+  - Bg1
+  - Bg2
+  - Floor
+  - Bushes
+  - Ducky
   layers:
   - Default
   - TransparentFX
@@ -41,3 +47,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Sky
+    uniqueID: 1154764715
+    locked: 0
+  - name: Bg1
+    uniqueID: 4012079107
+    locked: 0
+  - name: Bg2
+    uniqueID: 1196689107
+    locked: 0
+  - name: Floor
+    uniqueID: 171189247
+    locked: 0
+  - name: Bushes
+    uniqueID: 3274913667
+    locked: 0
+  - name: Ducky
+    uniqueID: 2957139295
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  m_MigratedRenderPipelines: []
